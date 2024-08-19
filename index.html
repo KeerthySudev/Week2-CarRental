@@ -39,8 +39,8 @@
                 </div>
                 <div class="links-mob" id="nav-links">
                     <div class="img-cross">
-                        <img src="images/cross.svg" alt=""  id="menu-icon2">
-                    </div>      
+                        <img src="images/cross.svg" alt="" id="menu-icon2">
+                    </div>
                     <a href="" class="link">About</a>
                     <div class="middle"></div>
                     <a href="" class="link">Offers</a>
@@ -88,7 +88,7 @@
                     </select>
                 </div>
                 <div class="search">
-                    <form action="" id="form">
+                    <form action="">
                         <div class="place-wrap">
                             <select class="place">
                                 <option value="" disabled selected>Al Quoz</option>
@@ -104,8 +104,6 @@
                         <div class="btn-search">
                             <button type="submit"></button>
                         </div>
-
-
                     </form>
                     <div class="small-line"></div>
                     <div class="btn-booking" id="btn-booking">
@@ -123,6 +121,39 @@
                         <img src="images/playstore.svg" alt="">
                     </div>
                 </div>
+            </div>
+            <div class="form" id="form">
+                <div class="categories">
+                    <div class="titles">
+                        <a href="" class="title-active">Same as Pick-Up
+                            <hr>
+                        </a>
+                        <a class="title">Different Drop-Off</a>
+                    </div>
+                    <select class="vehicle">
+                        <option value="" disabled selected>Select vehicle type</option>
+                        <option value="">Mitsubishi</option>
+
+                    </select>
+                </div>
+                <form action="">
+                    <div class="place-wrap">
+                        <select class="place">
+                            <option value="" disabled selected>Al Quoz</option>
+                        </select>
+                    </div>
+
+                    <div class="date1">
+                        <input type="datetime-local">
+                    </div>
+                    <div class="date2">
+                        <input type="datetime-local">
+                    </div>
+                    <div class="btn-search">
+                        <button type="submit">Search</button>
+                    </div>
+                </form>
+
             </div>
             <div class="phone">
                 <img src="images/phone.svg" alt="">
@@ -415,7 +446,7 @@
     </div>
     <script>
 
-        document.getElementById('menu-icon').addEventListener('click', function() {
+        document.getElementById('menu-icon').addEventListener('click', function () {
             var navLinks = document.getElementById('nav-links');
             if (navLinks.style.display === 'flex') {
                 navLinks.style.display = 'none';
@@ -424,8 +455,17 @@
 
             }
         });
-        document.getElementById('menu-icon2').addEventListener('click', function() {
+        document.getElementById('menu-icon2').addEventListener('click', function () {
             var navLinks = document.getElementById('nav-links');
+            if (navLinks.style.display === 'flex') {
+                navLinks.style.display = 'none';
+            } else {
+                navLinks.style.display = 'flex';
+
+            }
+        });
+        document.getElementById('btn-booking').addEventListener('click', function () {
+            var navLinks = document.getElementById('form');
             if (navLinks.style.display === 'flex') {
                 navLinks.style.display = 'none';
             } else {

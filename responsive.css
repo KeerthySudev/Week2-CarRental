@@ -6,19 +6,18 @@
         height: 4256px;
     }
 
-    .container>*:not(.top-bar, .second-row, .banner, .heading, .third-row, .fourth-row, .heading2, .steps, .locations, .faq, .question, .footer) {
+
+
+    .top-bar>*:not(.logo, .sunday, .nav-bar) {
         display: none;
 
     }
 
-    .top-bar>*:not(.logo, .sunday,.nav-bar) {
-        display: none;
-
-    }
     .nav-bar>*:not(.links-mob) {
         display: none;
     }
-    .links-mob{
+
+    .links-mob {
         flex-direction: column;
         top: -35px;
         left: -454px;
@@ -26,38 +25,41 @@
         position: absolute;
         z-index: 2;
         width: 300px;
-height: 543px;
-gap: 25px;
+        height: 543px;
+        gap: 25px;
     }
-    .links-mob img{
-position: relative;
-width: 20px;
-height: 20px;
-top: 12px;
-left: 230px;
+
+    .links-mob img {
+        position: relative;
+        width: 20px;
+        height: 20px;
+        top: 12px;
+        left: 230px;
     }
-   .nav-bar .links-mob a{
+
+    .nav-bar .links-mob a {
         font-family: Poppins;
-font-size: 14px;
-font-weight: 500;
-line-height: 21px;
-text-align: left;
-color: black;
-position: relative;
-left: 35px;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 21px;
+        text-align: left;
+        color: black;
+        position: relative;
+        left: 35px;
     }
-    .links-mob button{
+
+    .links-mob button {
         width: 143px;
-height: 29px;
-padding: 4px 20px 4px 20px;
-gap: 8px;
-border-radius: 36px;
-background-color: black;
-color: white;
-border: none;
-position: relative;
-left: 31px;
-top: 26px;
+        height: 29px;
+        padding: 4px 20px 4px 20px;
+        gap: 8px;
+        border-radius: 36px;
+        background-color: black;
+        color: white;
+        border: none;
+        position: relative;
+        left: 31px;
+        top: 26px;
     }
 
     .sunday p {
@@ -164,6 +166,26 @@ top: 26px;
         border: 1px solid #E21E26;
         color: #E21E26;
 
+    }
+
+    .form {
+        position: absolute;
+        left: 7px;
+        top: 319px;
+        flex-direction: column;
+        z-index: 2;
+        background: white;
+        width: 106%;
+        height: 267px;
+    }
+
+    .form .categories {
+
+        margin: 0px 28px;
+    }
+
+    .form .categories a {
+        color: black;
     }
 
     .banner {

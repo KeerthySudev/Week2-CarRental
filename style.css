@@ -1340,13 +1340,125 @@ input[type="datetime-local"]::-moz-clear {
 .car2 .book {
     display: none;
 }
-.nav-bar .links-mob{
+
+.nav-bar .links-mob {
     display: none;
 }
-.middle{
+
+.middle {
     border: 0.5px solid #000000;
     width: 221px;
     position: relative;
     left: 17px;
     opacity: 10%;
+}
+
+.form {
+    display: none;
+}
+
+.form form {
+    margin-left: 20px;
+}
+
+.place-wrap,
+.date1,
+.date2 {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+
+.form .place {
+    width: 380px;
+    height: 42px;
+    border-radius: 18px;
+    color: black;
+    background: #F6F7F9;
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: left;
+    border: none;
+    margin-right: 16px;
+    text-indent: 35px;
+}
+
+.form .place-wrap::before {
+    content: url(images/calendarG.svg);
+    display: inline-block;
+    width: 9px;
+    height: 12px;
+    top: 12px;
+    left: 22px;
+    vertical-align: middle;
+    position: relative;
+}
+
+.form .place-wrap::before {
+    content: url(images/calendarG.svg);
+    display: inline-block;
+    width: 9px;
+    height: 12px;
+    top: 12px;
+    left: 22px;
+    vertical-align: middle;
+    position: relative;
+}
+
+.form .date1::before,
+.form .date2::before {
+    content: url(images/mapG.svg);
+    display: inline-block;
+    width: 9px;
+    height: 12px;
+    top: 12px;
+    left: 22px;
+    vertical-align: middle;
+    position: relative;
+}
+
+.form .date1 input {
+    width: 380px;
+    height: 42px;
+    border-radius: 18px;
+    color: black;
+    background: #F6F7F9;
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: center;
+    border: none;
+    margin-right: 16px;
+}
+
+.form .date2 input {
+    width: 380px;
+    height: 42px;
+    border-radius: 18px;
+    color: black;
+    background: #F6F7F9;
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: center;
+    border: none;
+    margin-right: 16px;
+
+}
+
+.form .btn-search button {
+    width: 201px;
+    height: 37px;
+    padding: 0px 20px 0px 20px;
+    gap: 8px;
+    border-radius: 4px;
+    background-color: #E21E26;
+    background-image: none;
+    color: white;
+    position: relative;
+    left: 100px;
 }
