@@ -6,9 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Car rental</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="responsive.css">
-    <script src="scripts/scripts.js"></script>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./responsive.css">
 </head>
 
 <body>
@@ -38,6 +37,23 @@
                     <a href="" class="link">Location</a>
                     <a href="" class="link">Contact Us</a>
                 </div>
+                <div class="links-mob" id="nav-links">
+                    <div class="img-cross">
+                        <img src="images/cross.svg" alt=""  id="menu-icon2">
+                    </div>      
+                    <a href="" class="link">About</a>
+                    <div class="middle"></div>
+                    <a href="" class="link">Offers</a>
+                    <div class="middle"></div>
+                    <a href="" class="link">Corporate</a>
+                    <div class="middle"></div>
+                    <a href="" class="link">Personal</a>
+                    <div class="middle"></div>
+                    <a href="" class="link">Location</a>
+                    <div class="middle"></div>
+                    <a href="" class="link">Contact Us</a>
+                    <button>Log In/Sign Up</button>
+                </div>
                 <div class="icons">
                     <div class="bell">
                         <img src="images/bell.svg" alt="">
@@ -50,6 +66,10 @@
             <div class="sunday">
                 <p> Sunday Pick Up/Drop-Off only at Dubai Silicon Oasis & Habtoor Grand Sales Counters | All Rates
                     inclusive of VAT. T&C's apply | Follow us on Social Media for New Offers</p>
+                <div class="marquee-text">
+                    <span>Sunday Pick Up/Drop-Off only at Dubai Silicon Oasis & Habtoor Grand Sales Counters | All Rates
+                        inclusive of VAT. T&C's apply | Follow us on Social Media for New Offers</span>
+                </div>
             </div>
         </div>
         <div class="second-row">
@@ -404,6 +424,25 @@
         //     }
         // });
 
+        document.getElementById('menu-icon').addEventListener('click', function() {
+            var navLinks = document.getElementById('nav-links');
+            if (navLinks.style.display === 'flex') {
+                navLinks.style.display = 'none';
+            } else {
+                navLinks.style.display = 'flex';
+
+            }
+        });
+        document.getElementById('menu-icon2').addEventListener('click', function() {
+            var navLinks = document.getElementById('nav-links');
+            if (navLinks.style.display === 'flex') {
+                navLinks.style.display = 'none';
+            } else {
+                navLinks.style.display = 'flex';
+
+            }
+        });
+
         var acc = document.getElementsByClassName("accordion");
         var i;
 
@@ -419,13 +458,13 @@
             });
         }
 
-        document.querySelector('.datetime-input').addEventListener('focus', function () {
-            flatpickr('.datetime-input', {
-                enableTime: true,
-                dateFormat: "m/d/Y h:i K",
-                time_24hr: false,
-            });
-        });
+        // document.querySelector('.datetime-input').addEventListener('focus', function () {
+        //     flatpickr('.datetime-input', {
+        //         enableTime: true,
+        //         dateFormat: "m/d/Y h:i K",
+        //         time_24hr: false,
+        //     });
+        // });
     </script>
 </body>
 
