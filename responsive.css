@@ -1,487 +1,476 @@
 @media (max-width: 480px) {
-    .container {
-        flex-direction: column;
-        overflow: hidden;
-        width: 480px;
-        height: 4256px;
-    }
-
-
-
-    .top-bar>*:not(.logo, .sunday, .nav-bar) {
-        display: none;
-
-    }
-
-    .nav-bar>*:not(.links-mob) {
-        display: none;
-    }
-
-    .links-mob {
-        flex-direction: column;
-        top: -35px;
-        left: -454px;
-        background-color: white;
-        position: absolute;
-        z-index: 2;
-        width: 300px;
-        height: 543px;
-        gap: 25px;
-    }
-
-    .links-mob img {
-        position: relative;
-        width: 20px;
-        height: 20px;
-        top: 12px;
-        left: 230px;
-    }
-
-    .nav-bar .links-mob a {
-        font-family: Poppins;
-        font-size: 14px;
-        font-weight: 500;
-        line-height: 21px;
-        text-align: left;
-        color: black;
-        position: relative;
-        left: 35px;
-    }
-
-    .links-mob button {
-        width: 143px;
-        height: 29px;
-        padding: 4px 20px 4px 20px;
-        gap: 8px;
-        border-radius: 36px;
-        background-color: black;
-        color: white;
-        border: none;
-        position: relative;
-        left: 31px;
-        top: 26px;
-    }
-
-    .sunday p {
-        display: none;
-    }
-
-    .sunday .marquee-text {
-        display: block;
-    }
-
-    .top-bar .logo {
-        left: 26px;
-        top: 23px;
-        width: 50%;
-    }
-
-    .menu-icon {
-        display: block;
-    }
-
-    .sunday {
-        position: relative;
-        top: 7px;
-        width: 100%;
-    }
-
-    .search-bar>*:not(.download, .search) {
-        display: none;
-
-    }
-
-    .search-bar {
-        position: relative;
-        width: 421px;
-        height: 120px;
-        left: 16px;
-        border-radius: 16px;
-
-    }
-
-    .search-bar .download {
-        position: relative;
-        left: 16px;
-        width: 100%;
-        height: 100%;
-        margin: 0;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        top: -34px;
-    }
-
-    .download p {
-        width: 397px;
-        margin-bottom: 10px;
-        font-size: 13px;
-    }
-
-    .download img {
-        position: relative;
-        top: 15px;
-        left: -83px;
-        width: 111px;
-    }
-
-    .download .img img {
-        position: relative;
-        left: 33px;
-        top: -19px;
-    }
-
-    .search-bar .search>*:not(.btn-booking, .btn-book) {
-        display: none;
-
-    }
-
-    .btn-booking {
-        display: block;
-    }
-
-    .search {
-        margin: 0;
-        position: relative;
-        top: 136px;
-        gap: 16px;
-        display: flex;
-    }
-
-    .search button {
-        width: 200px;
-        height: 38px;
-        border-radius: 4px;
-    }
-
-    .search .btn-booking button {
-        left: 10px;
-        position: relative;
-        background-color: #E21E26;
-        color: white;
-        border: none;
-    }
-
-    .search .btn-book button {
-        border: 1px solid #E21E26;
-        color: #E21E26;
-
-    }
-
-    .form {
-        position: absolute;
-        left: 7px;
-        top: 319px;
-        flex-direction: column;
-        z-index: 2;
-        background: white;
-        width: 106%;
-        height: 267px;
-    }
-
-    .form .categories {
-
-        margin: 0px 28px;
-    }
-
-    .form .categories a {
-        color: black;
-    }
-
-    .banner {
-        position: relative;
-        top: 52px;
-        left: -422px;
-        width: 200%;
-    }
-
-    .heading {
-        position: relative;
-        margin: 0;
-        top: 80px;
-        left: 16px;
-    }
-
-    .third-row {
-        position: relative;
-        top: 100px;
-        left: -45px;
-    }
-
-    .car2 .book {
-        display: block;
-    }
-
-    .car1,
-    .car2 {
-        display: flex;
-        flex-direction: column;
-        border-radius: 4px 4px 0px 0px;
-    }
-
-    .third-row .desc {
-        position: relative;
-        top: -16px;
-        left: -37px;
-    }
-
-    .third-row .features {
-        position: relative;
-        top: 0px;
-    }
-
-    .third-row .price {
-        position: relative;
-        top: -5px;
-    }
-
-    .third-row .book button {
-        position: relative;
-        top: 5px;
-        left: 40px;
-        width: 140px;
-    }
-
-    .fourth-row {
-        position: relative;
-        top: 311px;
-        left: -126px;
-        display: flex;
-        flex-direction: column;
-    }
-
-    .fourth-row .subscribe h2 {
-        font-size: 23px;
-    }
-
-    .fourth-row .subscribe .input {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .fourth-row .subscribe .input input {
-        width: 435px;
-    }
-
-    .fourth-row .subscribe .miss {
-        position: relative;
-        top: 66px;
-        left: 0px;
-    }
-
-    .fourth-row .subscribe button {
-        position: relative;
-        top: 37px;
-        left: 0px;
-        width: 161px;
-    }
-
-    .fourth-row .app {
-        position: relative;
-        top: 66px;
-        left: 0px;
-        border-radius: 16px;
-        width: 440px;
-    }
-
-    .fourth-row .app img {
-        position: relative;
-        top: 0px;
-        left: 0px;
-        margin: 0;
-    }
-
-    .fourth-row .mobile {
-        position: relative;
-        top: -48px;
-        left: -15px;
-        margin: 0;
-    }
-
-    .heading2 {
-        position: relative;
-        top: 630px;
-        left: -84px;
-    }
-
-    .heading2 h1 {
-        font-size: 20px;
-    }
-
-    .steps {
-        display: flex;
-        flex-direction: column;
-        position: relative;
-        top: 560px;
-        left: -84px;
-        gap: 20px;
-    }
-
-    .mobile input {
-        width: 210px;
-    }
-
-    .locations {
-        position: relative;
-        top: 715px;
-        left: 12px;
-        width: 442px;
-        height: 151px;
-
-    }
-
-    .locations h3 {
-        position: relative;
-        top: -6px;
-        margin: 0;
-        left: -35px;
-        font-size: 18px;
-
-    }
-
-    .locations .vertical {
-        display: none;
-    }
-
-
-
-    .countries {
-        width: 100%;
-        height: auto;
-        margin: 0 auto;
-        top: -10px;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
-        position: relative;
-    }
-
-    .countries ul {
-        list-style-type: none;
-        padding-left: 0;
-        margin: 0;
-        display: flex;
-        justify-content: space-between;
-        flex-wrap: wrap;
-        width: 100%;
-    }
-
-    .countries .link {
-        width: 45%;
-        height: 26px;
-        opacity: 80%;
-        font-family: "Open Sans", sans-serif;
-        font-size: 18px;
-        font-weight: 600;
-        line-height: 25px;
-        color: white;
-        text-align: center;
-        margin-bottom: 10px;
-    }
-
-    .countries .link::before {
-        content: url(images/locations.svg);
-        display: inline-block;
-        width: 22px;
-        height: 28px;
-        margin-right: 8px;
-        vertical-align: middle;
-    }
-
-    .faq {
-        position: relative;
-        top: 709px;
-        left: -96px;
-    }
-
-    .faq h1 {
-        font-size: 20px;
-        font-weight: 500;
-    }
-
-    .question {
-        position: relative;
-        top: 730px;
-        left: -147px;
-    }
-
-    .accordion p {
-        width: 380px;
-
-    }
-
-    .footer {
-        position: relative;
-        top: 730px;
-        left: -7px;
-        width: 100%;
-        height: 456px;
-
-    }
-
-    .footer .logo {
-        position: relative;
-        top: 0px;
-        left: 28px;
-        display: flex;
-        flex-direction: row;
-        color: black;
-    }
-
-    .footer .logo p {
-        position: relative;
-        top: 38px;
-        left: -25px;
-        display: flex;
-        flex-direction: row;
-        color: black;
-    }
-
-    .footer .details {
-        color: black;
-        background-color: lightslategrey;
-    }
-
-    .follow .socialicons {
-        position: relative;
-        top: -59px;
-        left: -885px;
-    }
-
-    .follow .img img {
-        position: relative;
-        top: 216px;
-        left: -997px;
-    }
-
-    .alhabtoor {
-        position: relative;
-        top: 104px;
-        left: 154px;
-    }
-
-    .footer .features {
-        position: relative;
-        top: 104px;
-        left: -69px;
-    }
-
-    .line,
-    .copyright {
-        position: relative;
-        top: 164px;
-    }
-
-    .footer .lists {
-        position: relative;
-        top: 74px;
-        left: -87px;
-        color: black;
-    }
-
-    .footer .lists a {
-        color: black;
-    }
-
+  .container {
+    flex-direction: column;
+    overflow: hidden;
+    width: 480px;
+    height: 4256px;
+  }
+
+  .top-bar > *:not(.logo, .sunday, .nav-bar) {
+    display: none;
+  }
+
+  .nav-bar > *:not(.links-mob) {
+    display: none;
+  }
+
+  .links-mob {
+    flex-direction: column;
+    top: -35px;
+    left: -454px;
+    background-color: white;
+    position: absolute;
+    z-index: 2;
+    width: 300px;
+    height: 543px;
+    gap: 25px;
+  }
+
+  .links-mob img {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    top: 12px;
+    left: 230px;
+  }
+
+  .nav-bar .links-mob a {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    text-align: left;
+    color: black;
+    position: relative;
+    left: 35px;
+  }
+
+  .links-mob button {
+    width: 143px;
+    height: 29px;
+    padding: 4px 20px 4px 20px;
+    gap: 8px;
+    border-radius: 36px;
+    background-color: black;
+    color: white;
+    border: none;
+    position: relative;
+    left: 31px;
+    top: 26px;
+  }
+
+  .sunday .marquee-text {
+    display: block;
+  }
+
+  .top-bar .logo {
+    left: 26px;
+    top: 23px;
+    width: 50%;
+  }
+
+  .menu-icon {
+    display: block;
+  }
+
+  .sunday {
+    position: relative;
+    top: 7px;
+    width: 100%;
+  }
+
+  .search-bar > *:not(.download, .search) {
+    display: none;
+  }
+
+  .search-bar {
+    position: relative;
+    width: 421px;
+    height: 120px;
+    left: 16px;
+    border-radius: 16px;
+  }
+
+  .search-bar .download {
+    position: relative;
+    left: 16px;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    top: -34px;
+  }
+
+  .download p {
+    width: 397px;
+    margin-bottom: 10px;
+    font-size: 13px;
+  }
+
+  .download img {
+    position: relative;
+    top: 15px;
+    left: -83px;
+    width: 111px;
+  }
+
+  .download .img img {
+    position: relative;
+    left: 33px;
+    top: -19px;
+  }
+
+  .search-bar .search > *:not(.btn-booking, .btn-book) {
+    display: none;
+  }
+
+  .btn-booking {
+    display: block;
+  }
+
+  .search {
+    margin: 0;
+    position: relative;
+    top: 136px;
+    gap: 16px;
+    display: flex;
+  }
+
+  .search button {
+    width: 200px;
+    height: 38px;
+    border-radius: 4px;
+  }
+
+  .search .btn-booking button {
+    left: 10px;
+    position: relative;
+    background-color: #e21e26;
+    color: white;
+    border: none;
+  }
+
+  .search .btn-book button {
+    border: 1px solid #e21e26;
+    color: #e21e26;
+  }
+
+  .form {
+    position: absolute;
+    left: 7px;
+    top: 319px;
+    flex-direction: column;
+    z-index: 2;
+    background: white;
+    width: 106%;
+    height: 267px;
+  }
+
+  .form .categories {
+    margin: 0px 28px;
+  }
+
+  .form .categories a {
+    color: black;
+  }
+
+  .banner {
+    position: relative;
+    top: 62px;
+    left: -422px;
+    width: 200%;
+    background-image: url(images/banner.svg);
+  }
+  .banner .content {
+    top: 226.47px;
+  }
+  .carousel-inner,
+  .carousel-dots {
+    display: none;
+  }
+
+  .heading {
+    position: relative;
+    margin: 0;
+    top: 80px;
+    left: 16px;
+  }
+
+  .third-row {
+    position: relative;
+    top: 100px;
+    left: -45px;
+  }
+
+  .car2 .book {
+    display: block;
+  }
+
+  .car1,
+  .car2 {
+    display: flex;
+    flex-direction: column;
+    border-radius: 4px 4px 0px 0px;
+  }
+
+  .third-row .desc {
+    position: relative;
+    top: -16px;
+    left: -37px;
+  }
+
+  .third-row .features {
+    position: relative;
+    top: 0px;
+  }
+
+  .third-row .price {
+    position: relative;
+    top: -5px;
+  }
+
+  .third-row .book button {
+    position: relative;
+    top: 5px;
+    left: 40px;
+    width: 140px;
+  }
+
+  .fourth-row {
+    position: relative;
+    top: 311px;
+    left: -126px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .fourth-row .subscribe h2 {
+    font-size: 23px;
+  }
+
+  .fourth-row .subscribe .input {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .fourth-row .subscribe .input input {
+    width: 435px;
+  }
+
+  .fourth-row .subscribe .miss {
+    position: relative;
+    top: 66px;
+    left: 0px;
+  }
+
+  .fourth-row .subscribe button {
+    position: relative;
+    top: 37px;
+    left: 0px;
+    width: 161px;
+  }
+
+  .fourth-row .app {
+    position: relative;
+    top: 66px;
+    left: 0px;
+    border-radius: 16px;
+    width: 440px;
+  }
+
+  .fourth-row .app img {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    margin: 0;
+  }
+
+  .fourth-row .mobile {
+    position: relative;
+    top: -48px;
+    left: -15px;
+    margin: 0;
+  }
+
+  .heading2 {
+    position: relative;
+    top: 630px;
+    left: -84px;
+  }
+
+  .heading2 h1 {
+    font-size: 20px;
+  }
+
+  .steps {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 560px;
+    left: -84px;
+    gap: 20px;
+  }
+
+  .mobile input {
+    width: 210px;
+  }
+
+  .locations {
+    position: relative;
+    top: 715px;
+    left: 12px;
+    width: 442px;
+    height: 151px;
+  }
+
+  .locations h3 {
+    position: relative;
+    top: -6px;
+    margin: 0;
+    left: -35px;
+    font-size: 18px;
+  }
+
+  .locations .vertical {
+    display: none;
+  }
+
+  .countries {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    top: -10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+
+  .countries ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
+  .countries .link {
+    width: 45%;
+    height: 26px;
+    opacity: 80%;
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 25px;
+    color: white;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  .countries .link::before {
+    content: url(images/locations.svg);
+    display: inline-block;
+    width: 22px;
+    height: 28px;
+    margin-right: 8px;
+    vertical-align: middle;
+  }
+
+  .faq {
+    position: relative;
+    top: 709px;
+    left: -96px;
+  }
+
+  .faq h1 {
+    font-size: 20px;
+    font-weight: 500;
+  }
+
+  .question {
+    position: relative;
+    top: 730px;
+    left: -147px;
+  }
+
+  .accordion p {
+    width: 380px;
+  }
+
+  .footer {
+    position: relative;
+    top: 730px;
+    left: -7px;
+    width: 100%;
+    height: 456px;
+  }
+
+  .footer .logo {
+    position: relative;
+    top: 0px;
+    left: 28px;
+    display: flex;
+    flex-direction: row;
+    color: black;
+  }
+
+  .footer .logo p {
+    position: relative;
+    top: 38px;
+    left: -25px;
+    display: flex;
+    flex-direction: row;
+    color: black;
+  }
+
+  .footer .details {
+    color: black;
+    background-color: lightslategrey;
+  }
+
+  .follow .socialicons {
+    position: relative;
+    top: -59px;
+    left: -885px;
+  }
+
+  .follow .img img {
+    position: relative;
+    top: 216px;
+    left: -997px;
+  }
+
+  .alhabtoor {
+    position: relative;
+    top: 104px;
+    left: 154px;
+  }
+
+  .footer .features {
+    position: relative;
+    top: 104px;
+    left: -69px;
+  }
+
+  .line,
+  .copyright {
+    position: relative;
+    top: 164px;
+  }
+
+  .footer .lists {
+    position: relative;
+    top: 74px;
+    left: -87px;
+    color: black;
+  }
+
+  .footer .lists a {
+    color: black;
+  }
 }
